@@ -48,7 +48,7 @@
         viewer.loadSettingsFromURL();
         viewer.setBackground("skybox");
         
-        viewer.setDescription("Point cloud courtesy of <a target='_blank' href='https://www.sigeom.ch/'>sigeom sa</a>");
+        viewer.setDescription("Raak het scherm aan om te draaien");
         
         viewer.loadGUI(() => {
             viewer.setLanguage('en');
@@ -58,7 +58,7 @@
         });
         
         // Load and add point cloud to scene
-        Potree.loadPointCloud("pointclouds/ketel/cloud.json", "sigeom.sa", e => {
+        Potree.loadPointCloud("pointclouds/PDs/metadata.json", "sigeom.sa", e => {
             let scene = viewer.scene;
             let pointcloud = e.pointcloud;
             
