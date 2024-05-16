@@ -58,7 +58,8 @@
         //});
         
         // Load and add point cloud to scene
-        Potree.loadPointCloud("pointclouds/PDs/metadata.json", "sigeom.sa", e => {
+        //Potree.loadPointCloud("pointclouds/PDs/metadata.json", "sigeom.sa", e => {
+        Potree.loadPointCloud("pointclouds/ketel/ketel1/metadata.json", "sigeom.sa", e => {
             let scene = viewer.scene;
             let pointcloud = e.pointcloud;
             
