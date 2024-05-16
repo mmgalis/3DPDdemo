@@ -5,7 +5,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Ketel</title>
+    <title>3D PD demo</title>
 
     <link rel="stylesheet" type="text/css" href="build/potree/potree.css">
     <link rel="stylesheet" type="text/css" href="libs/jquery-ui/jquery-ui.min.css">
@@ -46,7 +46,7 @@
         viewer.setFOV(60);
         viewer.setPointBudget(1_000_000);
         viewer.loadSettingsFromURL();
-        // viewer.setBackground("skybox");
+        viewer.setBackground("skybox");
         
         //viewer.setDescription("Point cloud courtesy of <a target='_blank' href='https://www.sigeom.ch/'>sigeom sa</a>");
         viewer.setDescription("Raak het scherm aan om te draaien");
